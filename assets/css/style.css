@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-.viewport {
+.screen {
     display: flex;
 }
 
@@ -16,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-right: 0.7px solid rgb(214, 208, 208);
 }
 
 .profile {
@@ -24,45 +26,98 @@
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    justify-content: space-evenly;
+    border-bottom: 0.7px solid rgb(214, 208, 208);
 }
 
-.btn-chat {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 2;
-}
-
-.users {
-    height: 0.3rem;
-    width: 100%;
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-evenly;
-    border-top: 2px gray;
-}
-
-.thumbnails {
-    height: 100%;
+.chat-f {
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.chat-f i {
+    margin: 10px;
+}
+
+.btn-chat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1.2;
+}
+
+.primary-button {
+    background-color: #A491D2;
+    height: 50%;
+    width:80%;
+    color: white;
+    font-size: 1em;
+    border: none;
+}
+
+
+.users {
+    height: 0.3rem;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    border-top: 0.7px solid rgb(214, 208, 208);
+}
+
+.thumbnails-profile {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.thumbnails {
+    padding: 8px;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .thumbnails img {
-    width: 80%;
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.thumbnails-profile img {
+    width: 50%;
     border-radius: 50%;
 }
 
 .contact-info {
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
+.contact-profile {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.id_name {
+    font-size: large;
+    font-weight: bold;
+}
+
+.prof-estatus {
+    font: 0.8em sans-serif;
+    color: #BEC1BB;
+}
 
 
 
